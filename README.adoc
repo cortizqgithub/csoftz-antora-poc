@@ -1,0 +1,6 @@
+= csoftz-antora-poc
+
+20200603-V1.0.0
+
+This is a sample *_POC_* project to learn https://antora.org/[Antora]. This will 
+also serve as a shareable project to ask for help in Antora.
