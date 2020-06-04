@@ -1,13 +1,13 @@
 site:
   title: Antora POC
   # the 404 page and sitemap files only get generated when the url property is set
-  url: http://theowlo.blogspot.com/
+  url: http://theowlo.blogspot.com
   start_page: antora-poc-learning::index.adoc
 content:
   sources:
   # embedding empty credentials in the URL disables the Edit this Page link for any page created from this repository
-  - url: ./
-    branches: develop
+  - url: ./..
+    branches: HEAD
     start_path: docs
 ui:
   bundle:
@@ -19,4 +19,3 @@ ui:
       contents: |
         static_files: [ .nojekyll ]
     - path: .nojekyll
-  
