@@ -1,0 +1,83 @@
+= Preface
+
+== Conventions
+The text presents some conventions to emphasize content or draw attention.
+
+NOTE: To emphasize general concepts.
+
+TIP: To emphasize advices.
+
+IMPORTANT: To emphasize relevant contents.
+
+CAUTION: Concepts to bear in mind.
+
+WARNING: concepts to care about.
+
+We use a number of typographical conventions within this book that distinguish between different kinds of information.
+
+Code in the text, including commands, variables, file names, CSS class names, and property names are shown as follows:
+
+[example]
+Spring Boot uses a `public static void main` entry-point that launches an embedded web server for you.
+
+A block of code is set out as follows. It may be colored, depending on the format in which you're reading this book.
+
+[source,html]
+----
+<form>
+  <input type="search" name="query" [(ngModel)]="query" (keyup.enter)="search()">
+  <button type="button" (click)="search()">Search</button>
+</form>
+----
+
+[source,java]
+----
+@RestController
+class BlogController {
+    private final BlogRepository repository;
+
+    // Yay! No annotations needed for constructor injection in Spring 4.3+.
+    public BlogController(BlogRepository repository) {
+        this.repository = repository;
+    }
+
+    @RequestMapping("/blogs")
+    Collection<Blog> list() {
+        return repository.findAll();
+    }
+}
+----
+
+When we want to draw your attention to certain lines of code, those lines are annotated using numbers accompanied by brief descriptions.
+
+[source,javascript]
+----
+export class SearchComponent {
+  constructor(private searchService: SearchService) {} <1>
+
+  search(): void { <2>
+    this.searchService.search(this.query).subscribe( <3>
+      data => { this.searchResults = data; },
+      error => console.log(error)
+    );
+  }
+}
+----
+<1> To inject `SearchService` into `SearchComponent`, add it as a parameter to the constructors's argument list.
+<2> `search()` is a method that's called from the HTML's `<button>`, wired up using the `(click)` event handler.
+<3> `this.query` is a variable that's wired to `<input>` using two-way binding with `[(ngModel)]="query"`.
+
+
+TIP: Tips are shown using callouts like this.
+
+WARNING: Warnings are shown using callouts like this.
+
+.Sidebar
+****
+Additional information about a certain topic may be displayed in a sidebar like this one.
+****
+
+Finally, this text shows what a quote looks like:
+
+"In the end, it's not the years in your life that count. It's the life in your years."
+-- Abraham Lincoln

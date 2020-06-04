@@ -1,0 +1,3 @@
+=  Sales Svc
+
+This is the '*_service_*' responsible to all the Sales related tasks, handling cache for the following:

@@ -1,0 +1,13 @@
+= Couchbase
+
+== About
+
+[NOTE]
+====
+"*_Couchbase_* Server, originally known as Membase, is an open-source, distributed (shared-nothing architecture) multi-model NoSQL document-oriented database software package that is optimized for interactive applications. These applications may serve many concurrent users by creating, storing, retrieving, aggregating, manipulating and presenting data. In support of these kinds of application needs, Couchbase Server is designed to provide easy-to-scale key-value or JSON document access with low latency and high sustained throughput. It is designed to be clustered from a single machine to very large-scale deployments spanning many machines. A version originally called Couchbase Lite was later marketed as Couchbase Mobile combined with other software."
+-- Wikipedia link:https://en.wikipedia.org/wiki/Couchbase_Server[Couchbase]
+====
+
+Here you will find the URLs required to validate that the service is working. Just copy and paste it into a browser tab,
+if the '*_service_*' is running the page would show contents, otherwise there is a failure and it would need to be notified
+in order to make it run again.

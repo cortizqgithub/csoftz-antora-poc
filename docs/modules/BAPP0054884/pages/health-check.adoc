@@ -1,0 +1,6 @@
+= Health Check
+
+== About
+Here you will find the URLs required to validate that the service is working. Just copy and paste it into a browser tab,
+if the '*_service_*' is running the page would show contents, otherwise there is a failure and it would need to be notified
+in order to make it run again.

@@ -1,0 +1,23 @@
+= MySQL
+
+== About
+
+[NOTE]
+====
+"*_MySQL_* is an open-source relational database management system (RDBMS). Its name is a combination of '*My*', the name of co-founder Michael Widenius's daughter, and '*SQL*', the abbreviation for Structured Query Language."
+-- Wikipedia link:https://en.wikipedia.org/wiki/MySQL[MySQL]
+
+====
+
+Normally, a *MySQL* instance is running in 3306 port, so to validate if it is working, it is enough to open a telnet session.
+
+[TIP]
+====
+In order to make the telnet session, here is a link to a document that explains how to do effectively.
+
+link:https://devconnected.com/how-to-ping-specific-port-number/[How To Ping Specific Port Number]
+====
+
+It is advised to do the telnet connection test and also to validate that the *IP* or *DNS* defined for the
+*_MySQL_* instance per environment is being referenced in the health check where this is used. *_Cruise Booking Service_* uses it.
+
