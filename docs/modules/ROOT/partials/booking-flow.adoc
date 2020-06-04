@@ -1,6 +1,5 @@
 = Booking Flow
 
-
 [NOTE]
 ====
 If you select anything else aside the default values, they will remain active for the entire browsing session, even if you close the browse tab. This is stored in browser cookies.
