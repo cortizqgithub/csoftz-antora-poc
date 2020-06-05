@@ -1,6 +1,51 @@
 = csoftz-antora-poc
 
-20200603-V1.0.0
+20200604-V1.0.0
 
 This is a sample *_POC_* project to learn https://antora.org/[Antora]. This will 
 also serve as a shareable project to ask for help in Antora.
+
+To generate the site use the following command.
+
+[IMPORTANT]
+====
+You must have the '*_antora_*' software installed to run the following commands to generate
+the static site.
+
+You can follow the steps required in this https://docs.antora.org/antora/2.3/install/install-antora/[guide],
+use the antora documentation https://docs.antora.org/antora/2.3/[Antora Docs].
+
+This is for the latest release, and as you would expect, it eats its own food. Check the version you need, or use the latest release.
+
+You also need to always be sure to use the appropriate '*_nodeJS_*' version required to run 
+'*_antora_*'.
+
+This is based in '*_antora_*' v2.3 or later.
+====
+
+[source, bash]
+----
+$ antora --fetch --clean site-master.yml
+----
+
+The output is stored in the '*_build_*' folder.
+
+Where *_site.yml_* is the Antora Playbook.
+
+* *site-local.yml:* Main Playbook, uses HEAD git ref.
+* *site-develop:* Playbook using DEVELOP branch.
+* *site-master:* Playbook using MASTER branch.
+* *antora.yml:* Holds this doc book.
+
+[NOTE]
+====
+Should you want to make changes to the book, but you don't want to commit
+for every cahnge in the reposository then use the '*_antora playbook_*'
+file 'site-local.yml' with the following command.
+
+[source,bash]
+----
+$ antora --clean site-local.yml
+----
+
+====

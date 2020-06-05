@@ -1,5 +1,5 @@
 name: antora-poc-learning
 title: Antora Proof of Concept Learning
-version: 1.0
+version: '1.0'
 nav:
 - modules/ROOT/nav.adoc
