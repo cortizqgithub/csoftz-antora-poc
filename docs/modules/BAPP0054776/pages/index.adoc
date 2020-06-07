@@ -1,3 +1,7 @@
 =  Sales Svc
+:page-toctitle: No longer Contents
+:page-toclevels: 3
 
 This is the '*_service_*' responsible to all the Sales related tasks, handling cache for the following:
+
+include::ROOT:partial$section-levels.adoc[]

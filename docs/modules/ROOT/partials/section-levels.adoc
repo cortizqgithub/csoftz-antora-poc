@@ -1,0 +1,23 @@
+== Lets demonstrate section levels. This is level 1
+
+To see how this is configured:
+
+page-toctitle: {page-toctitle}
+
+page-toclevels: {page-toclevels}
+
+=== We need several to show what might be visible the the 'on this page'
+
+Paragraph?
+
+==== The max levels is 3 with the default UI, so this one should sometimes show.
+
+Paragraph.
+
+===== This is level 4, so this one should never show.
+
+Paragraph#
+
+====== This is level 5, so this one should never show.
+
+Paragraph!
