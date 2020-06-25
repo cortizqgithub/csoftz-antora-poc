@@ -1,4 +1,5 @@
 = Preface
+:page-toclevels: 0
 
 == Conventions
 The text presents some conventions to emphasize content or draw attention.
@@ -81,3 +82,5 @@ Finally, this text shows what a quote looks like:
 
 "In the end, it's not the years in your life that count. It's the life in your years."
 -- Abraham Lincoln
+
+include::ROOT:partial$section-levels.adoc[]

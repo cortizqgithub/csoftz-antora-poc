@@ -1,8 +1,10 @@
 =  Booking Svc
 
-This is the '*_service_*' responsible to all the Booking flow, handling 
+This is the '*_service_*' responsible to all the Booking flow, handling
 cart items, making the reservation, make a payment, hold staterooms, handling insurance, building
 the confirmation page, updating the guest information for reservation, handling ground transfer
 offers, update dining availability, handling DVIC account, etc.
 
 It supports *_Guest_* and *_TA_* paths.
+
+include::ROOT:partial$section-levels.adoc[]
